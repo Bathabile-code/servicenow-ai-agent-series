@@ -24,7 +24,7 @@ from pathlib import Path
 
 # ─── Config ────────────────────────────────────────────────────────────────
 SERVICENOW_INSTANCE = "https://dev228466.service-now.com"
-SERVICENOW_USERNAME = "app_mcp_client"
+SERVICENOW_USERNAME = "admin"
 SERVICENOW_PASSWORD = os.environ.get("SERVICENOW_PASSWORD", "")
 SERVICENOW_CASE_TABLE = "sn_customerservice_case"
 
